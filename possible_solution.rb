@@ -14,6 +14,8 @@ puts "Checking the weather at #{user_location}...."
 
 # Get the lat/lng of location from Google Maps API
 
+
+
 gmaps_key = ENV.fetch("GMAPS_KEY")
 
 gmaps_url = "https://maps.googleapis.com/maps/api/geocode/json?address=#{user_location}&key=#{gmaps_key}"
